@@ -13,10 +13,13 @@ main{
     margin: auto;
     text-align: center;
 }
-h1{
+main>h1,h2{
     font-size: 5rem;
     margin-top: 5rem;
     color: antiquewhite;
+}
+h2{
+    margin-top: 0%;
 }
 nav{
     display: flex;
