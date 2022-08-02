@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Acessórios</title>
+    <style>
+        h1 h3{
+            font-size: 1.4rem;
+        }
+        button{
+            background-image: url(back-graud-buttom/enfeites.jpg);
+        }
+    </style>
+    
+    <script>
+        function enfeites(){
+            var pontos=document.getElementById("pontos3");
+            var maisTexto=document.getElementById("mais3");
+            var btnLeiaMais=document.getElementById("btnverdoces");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Forminhas";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function canudos(){
+            var pontos=document.getElementById("pontos4");
+            var maisTexto=document.getElementById("mais4");
+            var btnLeiaMais=document.getElementById("btnverdoces2");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Canudos";
+                btnLeiaMais2.innerHTML = "Menus";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function baloes(){
+            var pontos=document.getElementById("pontos5");
+            var maisTexto=document.getElementById("mais5");
+            var btnLeiaMais=document.getElementById("btnverdoces3");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Baloes";
+                btnLeiaMais2.innerHTML = "Menus";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function diversos(){
+            var pontos=document.getElementById("pontos6");
+            var maisTexto=document.getElementById("mais6");
+            var btnLeiaMais=document.getElementById("btnverdoces4");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Diversos";
+                btnLeiaMais2.innerHTML = "Menus";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+    </script>
+
+</head>
+<body class="enfeite">
+    <header>
+        <div class="logo">
+            <img src="Logotipo SOS.png" alt="">
+        </div>
+
+        <nav class="catalogo-nav">
+            <button onclick="enfeites()" id="btnverdoces" class="btn-enfeite"> --------- </button>
+            <button onclick="canudos()" id="btnverdoces" class="btn-enfeite"> --------- </button>
+            <button onclick="baloes()" id="btnverdoces" class="btn-enfeite"> --------- </button>
+            <button onclick="diversos()" id="btnverdoces" class="btn-enfeite"> --------- </button>
+        </nav>
+    </header>
+    
+    <section class="amostras">
+        <!--DOCES
+        <span id="pontos3"> </span>
+        <span id="mais3" class="bnt">-->
+            <article class="enfeites">
+                <div>
+                    <div class="descri">
+                        <h1>Doces</h1>
+                        <h3></h3>
+                    </div>
+                    <figure>
+                        <img src="doces/doce1.jpeg" alt="">
+        
+                    </figure>
+                    <figure>
+                        <img src="doces/doce2.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="doces/doce3.JPG" alt="">
+                    </figure>
+                    <figure>
+                        <img src="doces/doce4.JPG" alt="">
+                    </figure>
+                    <figure>
+                        <img src="doces/doce5.JPG" alt="">
+                    </figure>
+                    <figure>
+                        <img src="doces/doce6.JPG" alt="">
+                    </figure>
+                    
+                </div>
+            </article>
+        </span>
+        
+    </section>
+
+
+</body>
+</html>

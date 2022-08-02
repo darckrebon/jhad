@@ -4,13 +4,15 @@
 }
 
 body{
-    background-image:linear-gradient(221deg, rgb(47, 136, 209),rgb(231, 62, 209),rgb(47, 136, 209),rgb(231, 62, 209));
+    /*background-color: black;*/
+    background-image: url(hgsvad2.jpeg);
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 main{
     margin-top: 50em;
-    max-width: 1000px;
+    /*max-width: 1000px;*/
     min-width: 300px;
     margin: auto;
     padding-bottom: 5px;
@@ -28,6 +30,7 @@ h2{
 }
 nav{
     display: flex;
+    justify-content: center;
     margin-top: 14vh;
 
 }
@@ -36,18 +39,17 @@ nav button{
     color: whitesmoke;
     font-size: 1.2rem;
     padding: 17px;
-
+    font-weight: bolder;
     margin: 5px;
 
-    border-radius: 24%;
+    border-radius: 14%;
+}
+.descri{
+    color: rgb(230, 43, 214);
+    margin: 20px;
 }
 #btnverdoces{
-    background-image: url(back-graud-buttom/doces.jpg);
-    background-size: cover;
-    color: black;
-}
-#btnverbaloes{
-    background-image: url(back-graud-buttom/baloes.jpg);
+    background-image: url(back-graud-buttom/bnt-doces.jpeg);
     background-size: cover;
     color: black;
 }
@@ -55,20 +57,32 @@ nav button{
     background-image: url(back-graud-buttom/enfeites.jpg);
     background-size: cover;
 }
-#btnverchocolate{
-    background-image: url(back-graud-buttom/chocolate.jpg);
+#btnverchocolate,#btnverchocolate2,#btnverchocolate3,#btnverchocolate4{
+    background-image: url(back-graud-buttom/bnt-choco.jpeg);
     background-size: cover;
 }
-#btnverferramentas{
+#btnverferramentas,#btnverferramentas2,#btnverferramentas3,#btnverferramentas4{
     background-image: url(back-graud-buttom/ferramentas.jpg);
     background-size: cover;
     color: black;
 }
 #btnveritens{
-    background-image: url(back-graud-buttom/copos-tacas.jpeg);
+    background-image: url(back-graud-buttom/bnt-copo.jpeg);
+    background-size: contain;
+    
+}
+#btnverdescart{
+    background-image: url(back-graud-buttom/bnt-discart.jpeg);
     background-size: cover;
+    background-position: top;
     color: black;
 }
+#btnverdescart>a{
+    color: black;
+}
+
+
+
 header{
     text-align: center;
 }
@@ -87,6 +101,11 @@ img{
     margin: 7px;
     height: 40vh;
     width: 30vh;
+}
+
+.enfeites{
+    display: flex;
+    justify-content: center;
 }
 .catalogo{
     display: flex;
@@ -119,7 +138,7 @@ a{
 nav>.btn-enfeite{
     padding: 9px;
     font-size: 1rem;
-    border-radius: 50%;
+    border-radius: 14%;
 }
 article>div>figure>img{
     height: 15vh;

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Ferramentas SoS</title>
+    <style>
+        h1 h3{
+            font-size: 1.4rem;
+        }
+        button{
+            background-image: url(back-graud-buttom/enfeites.jpg);
+            
+        }
+    </style>
+    
+    <script>
+        function enfeites(){
+            var pontos=document.getElementById("pontos3");
+            var maisTexto=document.getElementById("mais3");
+            var btnLeiaMais=document.getElementById("btnverferramentas");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Carimbos";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function canudos(){
+            var pontos=document.getElementById("pontos4");
+            var maisTexto=document.getElementById("mais4");
+            var btnLeiaMais=document.getElementById("btnverferramentas2");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Canudos";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function baloes(){
+            var pontos=document.getElementById("pontos5");
+            var maisTexto=document.getElementById("mais5");
+            var btnLeiaMais=document.getElementById("btnverferramentas3");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Baloes";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function diversos(){
+            var pontos=document.getElementById("pontos6");
+            var maisTexto=document.getElementById("mais6");
+            var btnLeiaMais=document.getElementById("btnverferramentas4");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Diversos";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+    </script>
+
+</head>
+<body class="enfeite">
+
+    
+
+    <header>
+        <div class="logo">
+            <img src="Logotipo SOS.png" alt="">
+        </div>
+
+        <nav class="catalogo-nav btnverferramentas">
+            <button onclick="enfeites()" id="btnverferramentas" class="btn-enfeite"> Carimbos</button>
+            <button onclick="canudos()" id="btnverferramentas2" class="btn-enfeite"> Formas</button>
+            <button onclick="baloes()" id="btnverferramentas3" class="btn-enfeite"> Suportes</button>
+            <button onclick="diversos()" id="btnverferramentas4" class="btn-enfeite"> Diversos</button>
+        </nav>
+    </header>
+    
+    <section class="amostras">
+        <!--CARIMBOS-->
+        <span id="pontos3"> </span>
+        <span id="mais3" class="bnt">
+            <article class="enfeites">
+                <div>
+                    <div class="descri">
+                        <h1>Carimbos</h1>
+                        <h3>Para bolos e afins</h3>
+                    </div>
+
+                    <figure>
+                        <img src="ferramentas/carimbo1.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo2.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo3.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo4.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo5.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo6.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo7.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo8.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo9.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo10.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/carimbo11.jpeg" alt="">
+                    </figure>
+                    
+                </div>
+            </article>
+        </span>
+
+        <!--FORMAS-->
+        <span id="pontos4"> </span>
+        <span id="mais4" class="bnt">
+            <article class="enfeites">
+                <div>
+                    <div class="descri">
+                        <h1>Formas</h1>
+                        <h3>Para bolos e doces</h3>
+                    </div>
+                    <figure>
+                        <img src="ferramentas/forma1.jpeg" alt="">
+                    </figure>
+        
+                </div>
+            </article>
+        </span>
+
+        <!--SUPORTES-->
+        <span id="pontos5"> </span>
+        <span id="mais5" class="bnt">
+            <article class="enfeites">
+                <div>
+                    <div class="descri">
+                        <h1>Suporte para guardanapos</h1>
+                        <h3> </h3>
+                    </div>
+                    <figure>
+                        <img src="ferramentas/sup-napo1.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/sup-napo2.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/sup-napo3.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/sup-napo4.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/sup-napo5.jpeg" alt="">
+                    </figure>
+        
+                </div>
+            </article>
+        </span>
+
+        <!--Diversos-->
+        <span id="pontos6"> </span>
+        <span id="mais6" class="bnt">
+            <article class="enfeites">
+                <div>
+                    <div class="descri">
+                        <h1>Diversos</h1>
+                        <h3></h3>
+                    </div>
+                    <figure>
+                        <img src="ferramentas/diver1.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver2.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver3.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver4.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver5.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver6.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver7.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver8.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver9.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver10.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="ferramentas/diver11.jpeg" alt="">
+                    </figure>
+                </div>
+            </article>
+        </span>
+    </section>
+
+
+</body>
+</html>
