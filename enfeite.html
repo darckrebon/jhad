@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Acessórios</title>
+    <style>
+        h1 h3{
+            font-size: 1.4rem;
+        }
+        button{
+            background-image: url(back-graud-buttom/enfeites.jpg);
+        }
+    </style>
+    
+    <script>
+        function enfeites(){
+            var pontos=document.getElementById("pontos3");
+            var maisTexto=document.getElementById("mais3");
+            var btnLeiaMais=document.getElementById("btnverenfeites");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Forminhas";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function canudos(){
+            var pontos=document.getElementById("pontos4");
+            var maisTexto=document.getElementById("mais4");
+            var btnLeiaMais=document.getElementById("btnverenfeites2");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Canudos";
+                btnLeiaMais2.innerHTML = "Menus";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function baloes(){
+            var pontos=document.getElementById("pontos5");
+            var maisTexto=document.getElementById("mais5");
+            var btnLeiaMais=document.getElementById("btnverenfeites3");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Baloes";
+                btnLeiaMais2.innerHTML = "Menus";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+
+        function diversos(){
+            var pontos=document.getElementById("pontos6");
+            var maisTexto=document.getElementById("mais6");
+            var btnLeiaMais=document.getElementById("btnverenfeites4");
+
+            if(pontos.style.display === "none"){
+                
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Diversos";
+                btnLeiaMais2.innerHTML = "Menus";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Menus";
+            }
+        }
+    </script>
+
+</head>
+<body class="enfeite">
+    <header>
+        <div class="logo">
+            <img src="WhatsApp Image 2022-08-01 at 17.53.12.jpeg" alt="">
+        </div>
+
+        <nav class="catalogo-nav">
+            <button onclick="enfeites()" id="btnverenfeites" class="btn-enfeite"> Forminhas</button>
+            <button onclick="canudos()" id="btnverenfeites2" class="btn-enfeite"> Canudos</button>
+            <button onclick="baloes()" id="btnverenfeites3" class="btn-enfeite"> Baloes</button>
+            <button onclick="diversos()" id="btnverenfeites4" class="btn-enfeite"> Diversos</button>
+        </nav>
+    </header>
+    
+    <section class="">
+        <!--Forminhas-->
+        <span id="pontos3"> </span>
+        <span id="mais3" class="bnt">
+            <article class="enfeites">
+                <div>
+                    <div>
+                        <h1>Forma para Doce</h1>
+                        <h3>folha de seda <br> com 30 und</h3>
+                    </div>
+                    <figure>
+                        <img src="enfeites/formaminha/enfeite1.jpeg" alt="">
+        
+                    </figure>
+                    <figure>
+                        <img src="enfeites/formaminha/enfeite2.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/formaminha/enfeite3.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/formaminha/enfeite4.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/formaminha/enfeite5.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/formaminha/enfeite6.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/formaminha/enfeite7.jpeg" alt="">
+                    </figure>
+                </div>
+            </article>
+        </span>
+        <!--Enfeites-->
+        <span id="pontos4"> </span>
+        <span id="mais4" class="bnt">
+            <article class="enfeites">
+                <div>
+                    <div>
+                        <h1>Canudos</h1>
+                        <h3>...</h3>
+                    </div>
+                    <figure>
+                        <img src="enfeites/canudo/ca1.JPG" alt="">
+        
+                    </figure>
+                    <figure>
+                        <img src="enfeites/canudo/ca2.JPG" alt="">
+                    </figure>
+        
+                </div>
+            </article>
+        </span>
+        <!--Baloes-->
+        <span id="pontos5"> </span>
+        <span id="mais5" class="bnt">
+            <article class="enfeites">
+                <div>
+                    <div>
+                        <h1>Baloes</h1>
+                        <h3>...</h3>
+                    </div>
+                    <figure>
+                        <img src="enfeites/baloes/b2.jpeg" alt="">
+        
+                    </figure>
+                    <figure>
+                        <img src="enfeites/baloes/b3.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/baloes/b4.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/baloes/b5.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/baloes/b6.jpeg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/baloes/b7.jpg" alt="">
+                    </figure>
+        
+                </div>
+            </article>
+        </span>
+        <!--Diversos-->
+        <span id="pontos6"> </span>
+        <span id="mais6" class="bnt">
+            <article class="enfeites">
+                <div>
+                    <div>
+                        <h1>Diversos</h1>
+                        <h3>...</h3>
+                    </div>
+                    <figure>
+                        <img src="enfeites/e1.JPG" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/e2.JPG" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/e3.JPG" alt="">
+                    </figure>
+                    <figure>
+                        <img src="enfeites/e4.JPG" alt="">
+                    </figure>
+                </div>
+            </article>
+        </span>
+    </section>
+
+
+</body>
+</html>

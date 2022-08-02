@@ -25,7 +25,22 @@
                 btnLeiaMais.innerHTML = "Ver Menus";
             }
         }
+        function enfeites(){
+            var pontos=document.getElementById("pontos3");
+            var maisTexto=document.getElementById("mais3");
+            var btnLeiaMais=document.getElementById("btnverenfeites");
 
+            if(pontos.style.display === "none"){
+                pontos.style.display ="inline";
+                maisTexto.style.display = "none";
+                btnLeiaMais.innerHTML = "Enfeites";
+
+            }else{
+                pontos.style.display ="none";
+                maisTexto.style.display = "inline";
+                btnLeiaMais.innerHTML = "Ver Menus";
+            }
+        }
         function doces(){
             var pontos=document.getElementById("pontos2");
             var maisTexto=document.getElementById("mais2");
@@ -43,22 +58,7 @@
             }
         }
         
-        function enfeites(){
-            var pontos=document.getElementById("pontos3");
-            var maisTexto=document.getElementById("mais3");
-            var btnLeiaMais=document.getElementById("btnverenfeites");
-
-            if(pontos.style.display === "none"){
-                pontos.style.display ="inline";
-                maisTexto.style.display = "none";
-                btnLeiaMais.innerHTML = "Enfeites";
-
-            }else{
-                pontos.style.display ="none";
-                maisTexto.style.display = "inline";
-                btnLeiaMais.innerHTML = "Ver Menus";
-            }
-        }
+        
 
         function ferramentas(){
             var pontos=document.getElementById("pontos4");
@@ -118,15 +118,19 @@
         
     <main> 
 
-        <h1>SoS</h1>
-        <h2>Embalagens</h2>
+        <header>
+            <div class="logo">
+                <img src="WhatsApp Image 2022-08-01 at 17.53.12.jpeg" alt="">
+            </div>
+        </header>
 
+       
         <nav class="catalogo nav">
             <button onclick="doces()" id="btnverdoces"> Doces</button>
             
             <button onclick="baloes()" id="btnverbaloes"> Balões</button>
             
-            <button onclick="enfeites()" id="btnverenfeites"> Enfeites</button>
+            <button onclick="enfeites()" id="btnverenfeites"><a href="enfeite.html"> Enfeites</a></button>
             
             <button onclick="chocolate()" id="btnverchocolate"> Chocolate</button>
 
@@ -201,19 +205,22 @@
                         
                         <figure>
                             <img src="baloes/b4.jpeg" alt="">
+                            <figcaption>
+                                djavsbdjhhabsd
+                            </figcaption>
                         </figure>
-                        <figure>
+                        <!--<figure>
                             <img src="baloes/b5.jpeg" alt="">
                         </figure>
                         <figure>
                             <img src="baloes/b6.jpeg" alt="">
-                        </figure>
+                        </figure>-->
                     </div>
                 </article>
             </span>
 
             <!--ENFEITES-->
-            <span id="pontos3"> </span>
+            <!--<span id="pontos3"> </span>
 
             <span id="mais3" class="bnt">
                 <article class="enfeites">
@@ -242,7 +249,7 @@
                         </figure>
                     </div>
                 </article>
-            </span>
+            </span>-->
 
             <!--FERRAMENTAS-->
             <span id="pontos4"> </span>
